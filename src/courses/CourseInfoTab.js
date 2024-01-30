@@ -160,7 +160,7 @@ export default function CourseInfoTab() {
 			>
 				<Avatar
 					variant="square"
-					src={course.image && `http://localhost:3005/images/${course.image}`}
+					src={course.image && `http://68.183.179.232:3005/images/${course.image}`}
 					alt={course.name}
 					sx={{ height: 125, width: 200 }}
 				/>

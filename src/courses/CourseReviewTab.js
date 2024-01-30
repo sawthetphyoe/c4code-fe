@@ -44,7 +44,7 @@ export default function CourseReviewTab() {
 			<Box sx={{ display: 'flex', gap: 2, alignItems: 'center', mb: 1 }}>
 				<Avatar
 					src={
-						r.student.image && `http://localhost:3005/images/${r.student.image}`
+						r.student.image && `http://68.183.179.232:3005/images/${r.student.image}`
 					}
 					alt={r.student.firstName}
 					sx={{ width: 50, height: 50 }}

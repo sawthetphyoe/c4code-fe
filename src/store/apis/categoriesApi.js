@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 const categoriesApi = createApi({
 	reducerPath: 'categories',
 	baseQuery: fetchBaseQuery({
-		baseUrl: 'http://localhost:3005/api/v1/categories',
+		baseUrl: 'http://68.183.179.232:3005/api/v1/categories',
 	}),
 	endpoints(builder) {
 		return {

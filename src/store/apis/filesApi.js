@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 const fileApi = createApi({
 	reducerPath: 'files',
 	baseQuery: fetchBaseQuery({
-		baseUrl: 'http://localhost:3005/api/v1/files',
+		baseUrl: 'http://68.183.179.232:3005/api/v1/files',
 		credentials: 'include',
 	}),
 	endpoints(builder) {

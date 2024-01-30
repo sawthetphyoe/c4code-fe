@@ -83,7 +83,7 @@ export default function CourseCard({ course, enrollment }) {
 			>
 				<Avatar
 					variant="square"
-					src={course.image && `http://localhost:3005/images/${course.image}`}
+					src={course.image && `http://68.183.179.232:3005/images/${course.image}`}
 					alt={course.name}
 					sx={{ height: 190, width: '100%', cursor: 'pointer' }}
 					onClick={() => navigate(`/course/${course._id}/${enrollment._id}`)}

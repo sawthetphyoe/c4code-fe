@@ -188,7 +188,7 @@ export default function UserInfoTab() {
 					}}
 				>
 					<Avatar
-						src={user.image && `http://localhost:3005/images/${user.image}`}
+						src={user.image && `http://68.183.179.232:3005/images/${user.image}`}
 						alt={user.firstName}
 						sx={{ height: 150, width: 150 }}
 					/>

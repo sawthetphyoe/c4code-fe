@@ -120,7 +120,7 @@ export default function CoursePlayPage() {
 		link.id = 'helper-link';
 		link.target = '_blank';
 		link.download = `${filename.split('---')[1]}`;
-		link.href = `http://localhost:3005/files/${filename}`;
+		link.href = `http://68.183.179.232:3005/files/${filename}`;
 		link.click();
 	};
 

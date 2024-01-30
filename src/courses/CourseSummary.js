@@ -21,7 +21,7 @@ export default function CourseSummary() {
 				variant="square"
 				sx={{ width: 175, height: 100 }}
 				alt={course.name}
-				src={course.image && `http://localhost:3005/images/${course.image}`}
+				src={course.image && `http://68.183.179.232:3005/images/${course.image}`}
 			/>
 			<Typography variant="h6" sx={{ fontSize: 24, fontWeight: 'bold' }}>
 				{course.name}
